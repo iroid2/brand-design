@@ -1,0 +1,472 @@
+/* browser reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 700vh;
+    
+}
+.container{
+    width: 100%;
+    
+}
+.topSectn{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+}
+.navBr{
+    gap: 12rem;  
+    width: 100%;
+    background-color: rgb(232,245,246);
+    border-bottom: 1px solid rgb(174, 173, 173);
+    line-height: 5.4rem;
+    wid
+
+}
+.rightNav{
+    gap: 2rem;
+    text-decoration: none;
+    
+}
+.rightNav a{
+    text-decoration: none;
+    color: rgb(25,25,25);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rightNav a:hover{
+   border-bottom: 2px solid rgb(135, 135, 220);
+   line-height: .9rem;
+}
+.downIcon{
+    width: 17px;
+}
+.dotsLog{
+    width: 46px;
+    height: 46px;
+    background-color: rgb(89,86,233);
+    border-radius: .5rem;
+}
+.dd{
+    /* background-color:green; */
+}
+.hamMen{
+    width: 22px;
+}
+.heroSectn{
+    background-color: rgb(232,245,246);
+    height: 140vh;
+    width: 100vw;
+    position: relative;
+    
+}
+.h1{
+    font-size: 75px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 80px;
+    font-weight: 700;
+    
+    width: 87%;
+}
+.heroSectn p{
+    width: 90%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #696868;
+    margin-top: 2REM;
+}
+.heroBtn{
+    width: 27%;
+    height: 8vh;
+    margin-top: 2rem;
+    background-color: rgb(89,86,233);
+    color: white;
+    
+}
+.leftHero{
+    width: 50%;
+    background: url(./assets/bg-shape-1.png);
+    margin-bottom: 8.2rem;
+    
+}
+.heroImg{
+    clip-path: ellipse(52% 48% at 52% 51%);
+    width: 470px;
+    z-index: 50;
+    
+}
+.circLogo{
+    position: absolute;
+    z-index: 90;
+    bottom: 12rem;
+}
+.hexaShap{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+.plusIcon{
+    position: absolute;
+    right: 38rem;
+    bottom: 7rem;
+}
+.abtImg{
+    width: 520px;
+    margin-top: 34rem;
+    clip-path: ellipse(52% 51% at 51% 51%);
+}
+.tickIcon{
+    width: 40px;
+    flex-direction: column;
+}
+.services{
+    width: 50%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1rem;
+    color: black;
+    margin-top: 2REM;
+    flex-direction: column;
+    /* background-color: red; */
+    
+}
+.margined{
+    margin-right: 2rem;
+}
+.abtus{
+/* gap: 5rem;    */
+}
+.title{
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(89,86,233);
+    background: url(./assets/border-1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+    align-items: center;
+    width: 50%;
+}
+.titlpos p{
+margin-left: 2rem;
+margin-top: 1rem;
+}
+.heading{
+    font-size: 55px;
+    line-height: 60px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.subHeading{
+    font-size: 22px;
+    color: rgb(89,86,233);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.padding{
+    padding-top: 10rem;
+}
+.leftAbtUs{
+    width: 40%;
+    position: relative;
+    margin-right: 10rem;
+   
+
+}
+
+.blueCircl{
+position: absolute;
+bottom: 1rem;
+left: 1rem;
+}
+.leftAbtUs{
+    width: 35%;
+    
+}
+.rightAbtUs{
+    /* position: relative; */
+    
+    
+
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30rem;
+    
+}
+.learnBtn{
+    background-color: white;
+    color: rgb(89,86,233);
+    font-family: 3rem;
+    font-weight: 900;
+    border: 1.3px solid  rgb(89,86,233);
+}
+.topService{
+    flex-direction: column;
+    padding-top: 8rem;
+}
+.servTitl{
+    margin-left: 27rem;
+}
+.darkSub{
+    color: rgb(133,134,137);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5rem;
+    margin-top: .5rem;
+}
+.hamMen{
+    display: none;
+}
+.arrow{
+    width: 20px;
+}
+.card{
+    width: 28%;
+    height: 55vh;
+    border-radius: .5rem;
+    border: 1px solid rgb(198, 197, 197);
+    
+}
+
+.bottmCard{
+    margin-right: 26rem;
+    flex-direction: column;
+    width: 70%;
+    height: 50%;
+
+    
+}
+.sectnLog{
+    width: 90px;
+    
+}
+.padding-left{
+    padding-left: 1.4rem;
+}
+.padding-top{
+    padding-top: 3rem;
+}
+.midCard{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+.btomService{
+    gap: 2rem;
+    padding-top: 2.2rem;
+}
+.serviceSectn{
+    padding-top: -20rem;
+    height: 100vh;
+    
+}
+.whitishBg{
+    background-color: rgb(255,255,255);
+}
+.rightAbtUs{
+    /* background-color: aqua; */
+    gap: 1rem;
+}
+.servicesList{
+    gap: 1rem;
+    /* width: 50%; */
+}
+.servGap{
+    gap: 1rem;
+    /* width: 120%; */
+    
+}
+.ref{
+    width: 90%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #696868;
+    margin-top: 2REM;
+}
+.profSectn{
+    /* padding-top: 20rem; */
+    margin-top: 10rem;
+    width: 100%;
+    background-color: rgb(250,250,251);
+}
+.proSubH{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+      width: 100%;
+      height: 700vh;
+
+      
+      
+    }
+    .container{
+        overflow: hidden;
+        height: 390vh;
+    }
+    .rightNav{
+        display: none;
+    }
+    .mob-leftHero{
+        gap: 15rem;
+        margin-right: 14rem;
+
+    }
+    .leftNav{
+        gap: 20rem;
+        
+    }
+    .rightNav{
+        width: 100%;
+    }
+    .log{
+        width: 110px;
+    }
+    .mob-heroSectn{
+        flex-direction: column;
+        width: 100%;
+    }
+    .h1{
+        font-size: 3rem;
+        width: 90%;
+        
+    }
+    .extrLeftLo{
+        display: none;
+    }
+    .rightHero{
+        display: none;
+    }
+    .leftHero{
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100%;
+        margin-top: 22rem;
+        margin-left: 16rem;
+        /* height: 40%; */
+    }
+    .hexaShap{
+        left: 10rem;
+        width: 130px;
+    }
+    .heroSectn{
+        height: 90vh;
+        padding-bottom: 7rem;
+    }
+    .heroBtn{
+        width: 200px;
+        border-radius: .5rem;
+    }
+    .abtus{
+        flex-direction: column;
+        height: 25%;
+        gap: -3rem;
+        
+        
+        
+    }
+    
+    .abtImg{
+        width: 400px;
+       
+    }
+    .rightAbtUs{
+        width: 90%;
+        
+
+    }
+    .leftAbtUs{
+        width: 20%;
+        padding-top: 6rem;
+        margin-right: 20rem;
+    }
+    .hamMen{
+        display: block;
+    }
+    .serviceSectn{
+        margin-top: 50rem;
+        
+        /* background-color: red; */
+    }
+    .servTitl{
+        margin-right: 25rem;
+    }
+    .servicesList{
+        width: 70%;
+    }
+    .btomService{
+        flex-direction: column;
+        /* background-color: green; */
+        gap: 2rem;
+        /* height: 100vh; */
+        margin-top: 4rem;
+    }
+    .card{
+        width: 90%;
+        height: 30%;
+    }
+    .serviceSectn{
+        width: 100%;
+        height: 10%;
+        /* margin-bottom: 590rem; */
+        /* background-color: red; */
+
+    }
+    .btomService {
+        /* background-color: rebeccapurple; */
+        background-color: rgb(250,250,251); 
+        width: 100%;
+
+        
+    }
+    .profSectn{
+       
+    }
+
+}
